@@ -116,18 +116,18 @@ body
 }
 
 
-/* Основной блок */
-.owl-wrapper-outer {
-	border: 1px solid #777;
-	border-radius: 5px;
-	overflow: hidden;
-	background: white;
+.menu1
+{
+	background-color: red;
+	margin-left:-2em;
 }
-
-/* 1 квадратик карусели */
-.carousel-element {
-	padding: 30px;
-	text-align: center;
-	font-size: 300%;
-	border-right: 1px solid #777;
+.menu2
+{
+	background-color: green;
+	margin-left:-9em;
+}
+.menu3
+{
+	background-color: yellow;
+	
 }
