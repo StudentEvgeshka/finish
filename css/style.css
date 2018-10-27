@@ -152,6 +152,11 @@ body
   -moz-border-radius: 3px;
   border-radius: 3px;
   text-align: center;
-  
 
+
+}
+.konkurs
+{ padding:0.5em;
+	float:left;
+	width:10em;
 }
