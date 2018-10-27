@@ -137,7 +137,7 @@ body
 	border: 1px solid #777;
 	border-radius: 5px;
 	overflow: hidden;
-	background: white;
+	background: blue;
 }
 
 /* 1 квадратик карусели */
@@ -146,10 +146,4 @@ body
 	text-align: center;
 	font-size: 300%;
 	border-right: 1px solid #777;
-}
-.konkurs
-{
-	margin:1em;
-	float:left;
-	width:10em;
 }
