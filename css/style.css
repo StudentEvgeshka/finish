@@ -134,16 +134,24 @@ body
 
 /* Основной блок */
 .owl-wrapper-outer {
-	border: 1px solid #777;
-	border-radius: 5px;
+	border: 0px solid #777;
+	border-radius: 0px;
 	overflow: hidden;
-	background: blue;
+	background: white;
+	height:20em;
+
 }
 
 /* 1 квадратик карусели */
 .carousel-element {
-	padding: 30px;
-	text-align: center;
-	font-size: 300%;
-	border-right: 1px solid #777;
+	background: #42bdc2;
+  padding: 30px 0px;
+  margin: 10px;
+  color: #FFF;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  text-align: center;
+  
+
 }
