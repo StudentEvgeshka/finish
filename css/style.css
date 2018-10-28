@@ -6,7 +6,7 @@
 }
 body
 {
-	background: url(../img/bg2.png);
+	background: url(../img/bg3.png);
 }
 
 .dropdown-menu
@@ -133,6 +133,8 @@ body
 	
 }
 
+
+/*karusel start*/
 /* Основной блок */
 .owl-wrapper-outer {
 	border: 0px solid #777;
@@ -145,19 +147,40 @@ body
 
 /* 1 квадратик карусели */
 .carousel-element {
-	background: #42bdc2;
-  padding: 30px 0px;
-  margin: 10px;
-  color: #FFF;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  border-radius: 3px;
-  text-align: center;
-
-
+	background: #ffffff;
+  	padding: 0.5em;
+ 	 margin: 10px;
+  	color: #000000;
+  	-webkit-border-radius: 3px;
+  	-moz-border-radius: 3px;
+  	border-radius: 0.2em;
+  	border: 0.2em  #c68d53 solid;
+  	text-align: center;
 }
+/*karucel end*/
 .konkurs
 { padding:0.5em;
 	float:left;
 	width:10em;
+}
+
+/*footer start*/
+.footer
+{
+	background-color:gray;
+	height:420px;
+	margin-bottom:1em;
+}
+.inform
+{
+	background-color: red;
+	float:left;
+}
+.kontakt
+{
+background-color: green;
+}
+.karta
+{
+background-color: yellow;
 }
