@@ -134,14 +134,14 @@ body
 }
 
 
-/*karusel start*/
+/*karusel bloks start*/
 /* Основной блок */
 .owl-wrapper-outer {
 	border: 0px solid #777;
 	border-radius: 0px;
 	overflow: hidden;
 	background: white;
-	height:20em;
+	
 
 }
 
@@ -156,12 +156,30 @@ body
   	border-radius: 0.2em;
   	border: 0.2em  #c68d53 solid;
   	text-align: center;
+  	height:20em;
+}
+/*karucel end*/
+/*konkurs bloks start*/
+.blok2karusel {
+	border: 0px solid #777;
+	border-radius: 0px;
+	overflow: hidden;
+	background: white;
+	height:100%;
+
+}
+
+
+/* 1 квадратик карусели */
+.konkurs-element 
+{
+	
 }
 /*karucel end*/
 .konkurs
 { padding:0.5em;
-	float:left;
 	width:10em;
+	float: left;
 }
 
 /*footer start*/
