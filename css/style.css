@@ -105,7 +105,10 @@ body
 
 }
 
+
+
 .lozung
+
 {
 	text-align: center;
 	font-style: italic;
@@ -114,7 +117,6 @@ body
 	font-size: 1.2em;
 	padding-top:1.2em ;
 }
-
 
 .menu1
 {
@@ -141,8 +143,6 @@ body
 	border-radius: 0px;
 	overflow: hidden;
 	background: white;
-	
-
 }
 
 /* 1 квадратик карусели */
@@ -159,46 +159,60 @@ body
   	height:20em;
 }
 /*karucel end*/
+
 /*konkurs bloks start*/
 .blok2karusel {
 	border: 0px solid #777;
 	border-radius: 0px;
 	overflow: hidden;
-	background: white;
+	background: blue;
 	height:100%;
-
 }
 
 
 /* 1 квадратик карусели */
 .konkurs-element 
-{
+{	
+	padding: 0 auto;
 	
 }
 /*karucel end*/
+
 .konkurs
 { padding:0.5em;
 	width:10em;
-	float: left;
 }
 
 /*footer start*/
 .footer
-{
+{	background: url(../img/top2.png) repeat-x;
 	background-color:gray;
-	height:420px;
+	height:320px;
 	margin-bottom:1em;
+	-webkit-box-shadow: 0px 3px 10px -3px rgba(74,74,74,1);
+	-moz-box-shadow: 0px 3px 10px -3px rgba(74,74,74,1);
+	box-shadow: 0px 3px 10px -3px rgba(74,74,74,1);
+	padding-top:1.2em;
+
+
 }
+ .inform, .kontact, .karta
+ {
+	font-size: 1.2em;
+	
+}
+
 .inform
 {
-	background-color: red;
-	float:left;
+	background-color: green;
+
 }
 .kontakt
 {
 background-color: green;
+
 }
-.karta
-{
-background-color: yellow;
+
+.inform2{
+    background-color: rgba(74,74,74,0.5);
 }
