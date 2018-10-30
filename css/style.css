@@ -175,6 +175,11 @@ body
 	/* border: 1px red solid; */
 	background-color: #cc9a66;
 }
+.carousel-element a:hover
+{
+	background-color: #ac7439;
+	color: #cc9a66;
+}
 /*karucel end*/
 
 /*konkurs bloks start*/
