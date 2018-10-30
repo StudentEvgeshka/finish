@@ -219,6 +219,7 @@ body
 	-moz-box-shadow: 0px 3px 10px -3px rgba(74,74,74,1);
 	box-shadow: 0px 3px 10px -3px rgba(74,74,74,1);
 	padding-top:1.2em;
+	fo
 
 
 }
@@ -228,17 +229,44 @@ body
 	
 }
 
-.inform
-{
-	background-color: green;
-
-}
 .kontakt
 {
-background-color: green;
+
 
 }
 
 .inform2{
-    background-color: rgba(74,74,74,0.5);
+    border-left: 2px #4d4d4c solid;
+	border-right: 2px #4d4d4c solid;
 }
+
+.inform
+{
+	background: none;
+	border:none;
+}
+.inform h4, .inform h5
+{
+	text-align: center;
+	font-family: Times New Roman;
+	color:white;
+}
+
+.bl
+{
+	background:none;
+	border-bottom: none;
+
+}
+.bl:hover
+{
+	background:#4d4d4c;
+	color:white;
+
+}
+.bl a
+{
+	color:white;
+	text-decoration: none;
+}
+
