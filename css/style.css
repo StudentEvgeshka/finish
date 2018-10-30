@@ -107,15 +107,17 @@ body
 
 
 
-.lozung
-
+.lozung, .lozung1
 {
 	text-align: center;
-	font-style: italic;
-	color:#3d3de2;
+	color:#795128;
 	font-weight: bold;
 	font-size: 1.2em;
 	padding-top:1.2em ;
+}
+.lozung1
+{
+	color:#3d3de2;
 }
 
 .menu1
@@ -171,6 +173,8 @@ body
 .carousel-element a
 {	display: block;
 	color: black;
+	height:100%;
+	text-align: middle;
 	border-radius: 0.2em;
 	/* border: 1px red solid; */
 	background-color: #cc9a66;
