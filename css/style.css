@@ -147,16 +147,33 @@ body
 
 /* 1 квадратик карусели */
 .carousel-element {
-	background: #ffffff;
+	background: #ffd79a;
   	padding: 0.5em;
- 	 margin: 10px;
+ 	margin: 10px;
   	color: #000000;
   	-webkit-border-radius: 3px;
   	-moz-border-radius: 3px;
   	border-radius: 0.2em;
-  	border: 0.2em  #c68d53 solid;
+  	/* border: 0.2em  #c68d53 solid; */
   	text-align: center;
   	height:20em;
+}
+
+.carousel-element img
+{
+	width:100%;
+}
+.carousel-element h4
+{
+	padding-top: 0.5em;
+	color:black;
+}
+.carousel-element a
+{	display: block;
+	color: black;
+	border-radius: 0.2em;
+	/* border: 1px red solid; */
+	background-color: #cc9a66;
 }
 /*karucel end*/
 
